@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.ui-header {
+    background: #373737 url('../images/headers.jpg') repeat-x top center;
+    border-bottom: 1px solid #94BF4C;
+}
+div.ui-navbar {
+    border-top: 1px solid #94BF4C;
+    background: #373737 url('../images/headers_rv.jpg') repeat-x top center;
+}
+
+.smallnote {
+    font-size: 80%;
+    font-style: italic;
+}
+
+.smallgroup {
+}
+.smallgroup li {
+    float: left;
+    margin:  2px 0;
+}
+.smallgroup .ui-btn-inner {
+    padding: .6em 35px .6em 10px;
+    font-size: 80%;
+}
+.smallgroup .smallpadding .ui-btn-inner {
+    padding: .6em 15px .6em 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+#credits li.ui-li-static, #credits li.ui-btn-icon-right a {
+    color: #757575;
+}
+
+div.ui-content {
+    border-top: 1px solid #1e1e1e;
+}
+
+.ui-listview-filter-inset {
+    margin: -15px -5px 0;
+}
+.ui-btn-inner {
+    padding:  0.6em 18px;
+}
+.ui-btn-icon-right .ui-btn-inner {
+    padding-right: 36px;
+}
+.subline {
+    font-style: italic;
+    margin-top: -1em;
+    font-size: 90%;
+}
+div[data-role=dialog] .ui-content {
+    color: #1e1e1e;
+    background-color: #F0F0F0;
+   	-moz-border-radius-bottomleft: 		.6em;
+	-webkit-border-bottom-left-radius: 	.6em;
+	border-bottom-left-radius: 			.6em;
+   	-moz-border-radius-bottomright: 		.6em;
+	-webkit-border-bottom-right-radius: 	.6em;
+	border-bottom-right-radius: 			.6em;
+}
+
+.ui-btn-up-a {
+    background: #444;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#444), to(#333)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #444, #333); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #444, #333); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #444, #333); /* IE10 */
+	background-image:      -o-linear-gradient(top, #444, #333); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #444, #333);
+}
+.ui-bar-a {
+    background: #444;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#444), to(#555)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #444, #555); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #444, #555); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #444, #555); /* IE10 */
+	background-image:      -o-linear-gradient(top, #444, #555); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #444, #555);
+}
+.ui-btn-active {
+    background: #555;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#555), to(#666)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #555, #666); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #555, #666); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #555, #666); /* IE10 */
+	background-image:      -o-linear-gradient(top, #555, #666); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #555, #666);
+
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+}
+.ui-body-c .ui-link {
+    color: #576c70;
+}
+
+.ui-bar-b {
+    background: #555;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#779937), to(#5C7F17)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #779937, #5C7F17); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #779937, #5C7F17); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #779937, #5C7F17); /* IE10 */
+	background-image:      -o-linear-gradient(top, #779937, #5C7F17); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #779937, #5C7F17);
+    border:  1px solid #5C7F17;
+}
+
+
+li a{
+	display:block;
+	}
+.ui-li-heading {
+    margin: .2em 0;
+}
+.ui-footer p.license {
+    font-size: 85%;
+    text-align: center;
+}
+/*---------------- fixed Nav background color ------------------*/
+#nav-home, #manage, #logout, .redGradient {
+    background: transparent;
+    /*background-image: -webkit-gradient(linear, left top, left bottom, from(#666666), to(#777777));
+	background-image: -webkit-linear-gradient(top, #666666, #777777);
+	background-image:    -moz-linear-gradient(top, #666666, #777777);
+	background-image:     -ms-linear-gradient(top, #666666, #777777);
+	background-image:      -o-linear-gradient(top, #666666, #777777);
+	background-image:         linear-gradient(top, #666666, #777777);*/
+    font-size: 12px;
+}
+/*---------------- fixed Nav background color on hover ------------------*/
+#nav-home:hover, #manage:hover, #logout:hover {
+    background: #779937;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#779937), to(#5C7F17)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #779937, #5C7F17); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #779937, #5C7F17); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #779937, #5C7F17); /* IE10 */
+	background-image:      -o-linear-gradient(top, #779937, #5C7F17); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #779937, #5C7F17);
+}
+/*---------------- fixed Nav button custom icons ------------------*/
+#nav-home .ui-icon {
+    background: url(../images/icon_home.png) 50% 50% no-repeat;
+    background-size: 30px 40px;
+}
+#manage .ui-icon {
+    background: url(../images/icon_resources.png) 50% 50% no-repeat;
+    background-size: 20px 25px;
+}
+#logout .ui-icon {
+    background: url(../images/icon_logout.png)50% 50% no-repeat;
+    background-size: 20px 25px;
+}
+#nav-home.ui-btn .ui-btn-inner, #manage.ui-btn .ui-btn-inner, #logout.ui-btn .ui-btn-inner {
+    padding-top: 40px !important
+}
+#nav-home.ui-btn .ui-icon, #manage.ui-btn .ui-icon, #logout.ui-btn .ui-icon {
+    width: 30px!important;
+    height: 30px!important;
+    margin-left: -15px !important;
+    box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+    -webkit-border-radius: none !important;
+    border-radius: none !important;
+}
+
+
+/*----------------------- overrid list items ellipses -------------------------------*/
+
+p.ui-li-desc{
+    font-size: 12px;
+    font-weight: normal;
+    display: block;
+    margin: .5em 0 .6em;
+    text-overflow:none;
+    overflow:visible;
+    white-space:normal;
+}

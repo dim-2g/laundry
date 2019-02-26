@@ -1,0 +1,39 @@
+Changelog for AjaxForm.
+
+1.0.4-pl
+==============
+- Added checking of global js var "afValidated" before form submit.
+
+1.0.3-pl
+==============
+- [#8] Improved regular expression.
+- Improved compatibility with parameter "submitVar" in snippet FormIt.
+
+1.0.2-pl
+==============
+- Added jQuery event "af_complete" on form submit.
+- [#4] Ability to use @INLINE chunk in parameter &form, if you have pdoTools installed.
+- [#3] Ability to set placeholders in form by specifying them into script parameters.
+- [#2] Script will add class "error" to elements with ".error_[name_of_field]" elements in form.
+
+1.0.1-pl
+==============
+- Possibly fix for Error 500 on some hosts.
+
+1.0.0-pl
+==============
+- Call end snippet on page load for preparation of form. Now you can use hook "math".
+
+1.0.0-rc
+==============
+- Force attribute "method=post" to form.
+- Added support for sending form without javascript.
+
+1.0.0-beta1
+==============
+- Improved adding class "ajax_form" to form.
+- Improved snippet parameters.
+
+1.0.0-beta0
+==============
+- Initial release.

@@ -1,0 +1,85 @@
+++++++++++++++++++++++++++++++++
+++   HandyMan 1.0.0-pl        ++
+++   Released on 2013-07-17   ++
+++++++++++++++++++++++++++++++++
+Fix critical issue in 2.2.x installs preventing login/usage of HandyMan.
+Update jQuery to 1.8.3
+Update jQuery Mobile to 1.3.1
+--- queue long break of not fixing anything, sorry!! ---
+Update jQuery Mobile to 1.0.1
+#6547 Add a "Clear the Cache" button on the home page to clear the site cache.
+#6680 Add a "View Website" button to the list resource screen (on context level).
+Re-invent checkbox TV support (was built in but not available).
+Prevent breaking the form when values for radio/checkbox/select boxes include html.
+
+++++++++++++++++++++++++++++++++
+++   HandyMan 1.0.0-rc2       ++
+++   Released on 2012-01-06   ++
+++++++++++++++++++++++++++++++++
+Refactor included runProcessor to properly wrap modX::runProcessor yet be backwards compatible.
+Fix menu on dialog screens.
+#6543 Using without textile runs htmlentities on html tags
+Fix credit list markup and update list.
+
+++++++++++++++++++++++++++++++++
+++   HandyMan 1.0.0-rc1       ++
+++   Released on 2011-12-25   ++
+++++++++++++++++++++++++++++++++
+
+#6295 Prevent sticky footer/header bars from popping up over input fields on small screens.
+#5906 Basic permission checking when building option menus.
+Default textile integration to OFF.
+#5984 Remove home button from header, move it to footer bar. Gets rid of create resource for now.
+#6008 Improve credits list on homepage for smaller screens, better tribute to premier contributors.
+Update resource/view for more granular control, different displays (text/boolean for now) and using lexicons for headers.
+#6113 Fix lexicons for settings on resource/view
+#5994 Inherit template from parent when creating a new resource, or use default_template system setting.
+Update jQuery  Mobile to 1.0-final (Great job jQuery Mobile team!!)
+#5976 Enhanced support for date input type TVs on mobile devices.
+#5867 Support for MODX 2.0.8.
+Fix breadcrumb links passing the wrong URL parameter.
+#5957 Fix slash issues on server configurations which have magic_quotes_gpc enabled. 
+Add option to disable/enable textile on create resource controller.
+Further internationalization efforts. Will need more work than this, but every bit helps..!
+#5873 Force UTF-8 html entities to prevent encoding issues on view details.
+
+++++++++++++++++++++++++++++++++
+++   HandyMan 0.9.2-dev1      ++
+++   Released on 2011-10-25   ++
+++++++++++++++++++++++++++++++++
+#5872 Autogrow textarea on pageload and collapsible elements
+Update jQuery Mobile to 1.0-rc2.
+Fix blocker bug with HandyMan where it would be using MODX chunks instead of file system templates.
+
+++++++++++++++++++++++++++++++++
+++   HandyMan 0.9.1-dev1      ++
+++   Released on 2011-10-12   ++
+++++++++++++++++++++++++++++++++
+
+#5877 Add buttons to update or view a resource in resource/view
+Add note to unsupported TV types that they are not (yet) fully supported.
+#5854 Add option to disable Textile while editing a resource and proper inheritance from system setting > resource setting.
+#5870 More UI/UX updates to start screen en resource update panel.
+Show number of resources in a context on context selection screen.
+#5849 Add option to context root to create a new Resource in the root.
+Make sure the resource_overview lexicon key exists, if not use the < 2.1 resource_view for the resource view option item.
+#5885 Work around iPad (iOS) not resizing the screen properly on orientation change to landscape.
+Make sure the cache gets cleared when "Clear Cache?" was ticked.
+Fix label used for (un)publish resource.
+#5883 Use MODX core processors for resource/create & resource/update.
+#5854 Added setting to globally disable rich text.
+#5870 Change the startscreen and resource UI a tad to include splitter rows for clarity.
+#5876 Re-order resource options to make more sense and use the MODX lexicon.
+#5872 Make textarea / richtext fields larger by default. Pending framework fix to auto-resize when page loads.
+#5882 Fix breadcrumbs being split over multiple lines breaking the layout.
+Sort resources in resource/list on menuindex.
+#5874 Display full content on screen.
+#5868 Fix missing date and user being set on create/update.
+
+
+++++++++++++++++++++++++++++++++
+++   HandyMan 0.9.0-dev1      ++
+++   Released on 2011-10-04   ++
+++++++++++++++++++++++++++++++++
+
+Initial Contributors-Only release.

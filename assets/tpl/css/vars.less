@@ -1,0 +1,106 @@
+//	Цвета
+
+@black: #333;
+@text:  #666;
+@grey:  #e4e4e4;
+@dark: 	#999;
+@clr_1: #B2DFDB;
+@clr_2: #00695C;
+@clr_3: #EF9A9A;
+@clr_4: #B71C1C;
+@clr_5: #90CAF9;
+@clr_6: #0D47A1;
+
+//	Шрифт
+
+.font(@size: 14px, @line: 24px, @font: 'Verdana') {
+	font-size: @size;
+	line-height: @line;
+	font-family: @font, arial, sans-serif;
+}
+
+//	Скругления
+
+.circle(@size: 100%, @pos: relative) {
+	-webkit-border-radius: @size;
+	-khtml-border-radius: @size;
+	-moz-border-radius: @size;
+	border-radius: @size;
+	position: @pos;
+	zoom: 1;
+	behavior: url(pie/PIE.php);
+}
+
+// 	Тени
+
+.shadow(@y: 0, @blur: 7px, @color: #b2b2b2) {
+	-webkit-box-shadow: 0 @y @blur @color;
+	-moz-box-shadow: 0 @y @blur @color;
+	box-shadow: 0 @y @blur @color;
+	zoom: 1;
+	behavior: url(pie/PIE.php);
+}
+
+.inset(@y: 2px, @blur: 2px, @color: rgba(0,0,0,.1)) {
+	-webkit-box-shadow: inset 0 @y @blur @color;
+	-moz-box-shadow: inset 0 @y @blur @color;
+	box-shadow: inset 0 @y @blur @color;
+}
+
+//	Анимация
+
+.transition(@prop: all, @time: 0.4s, @type: ease) {
+	-webkit-transition: @prop @time @type;
+	-moz-transition: @prop @time @type;
+	-o-transition: @prop @time @type;
+	transition: @prop @time @type;
+}
+
+// 	Поворот
+
+.transform(@val: 90deg, @type: rotate) {
+	-moz-transform: @type(@val);
+	-ms-transform: @type(@val);
+	-webkit-transform: @type(@val);
+	-o-transform: @type(@val);
+	transform: @type(@val);
+}
+
+// 	box-sizing
+
+.box() {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+// 	Спрайт как фоновая картинка
+
+.bg(@left: left, @top: top) {
+	background: url(../img/sprite.png) @left @top no-repeat;
+}
+
+// 	Спрайт для элементов при наведении
+
+.hover() {
+	background-image: url(../img/hover.png);
+}
+
+// 	Наборы для псевдоэлементов
+
+.p_clear() {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.p_abs(@width: 10px, @height: 10px, @hor: 0, @vert: 0) {
+	content: "";
+	display: block;
+	width: @width;
+	height: @height;
+	position: absolute;
+	left: @hor;
+	top: @vert;
+	z-index: 1;
+}

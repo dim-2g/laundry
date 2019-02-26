@@ -1,0 +1,164 @@
+@charset 'utf-8';
+* {
+  margin: 0;
+  padding: 0;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+label {
+  cursor: pointer;
+}
+button,
+input {
+  line-height: normal;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -moz-appearance: button;
+  -webkit-appearance: button;
+  *overflow: visible;
+}
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *width: 13px;
+  *height: 13px;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical;
+}
+input,
+textarea,
+input:focus,
+input:active,
+textarea:active,
+:focus {
+  outline: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+ul,
+menu {
+  display: block;
+  list-style: none;
+}
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+pre {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+/* Служебные классы */
+
+.clear {
+  display: block;
+  clear: both;
+}
+.left {
+  display: block;
+  float: left;
+}
+.right {
+  display: block;
+  float: right;
+}
+.rel {
+  position: relative;
+}
+.abs {
+  position: absolute;
+}
+.fix {
+  position: fixed;
+}
+.upp {
+  text-transform: uppercase;
+}
+.bold {
+  font-weight: bold;
+}
+.ct {
+  text-align: center;
+}
+.rt {
+  text-align: right;
+}
+.lt {
+  text-align: left;
+}
+.jt {
+  text-align: justify;
+}
+.over {
+  overflow: hidden;
+}
+.dtable {
+  display: table;
+}
+.dtcell,
+.dtable > div {
+  display: table-cell;
+}
+.blo {
+  display: block;
+}
+.hor li,
+.inl,
+.button {
+  display: inline-block;
+}
+* + html .hor li,
+* + html .inl,
+* + html .button {
+  display: inline;
+  zoom: 1;
+}
+.vert {
+  vertical-align: middle;
+}
+.justifyer {
+  width: 100%;
+  height: 1px;
+  line-height: 0;
+}

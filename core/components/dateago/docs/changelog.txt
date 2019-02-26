@@ -1,0 +1,13 @@
+Changelog for dateAgo.
+
+1.0.2
+==============
+- The snippet is no longer static.
+
+1.0.1
+==============
+- Fixed mistypes
+
+1.0.0
+==============
+- Initial release.
